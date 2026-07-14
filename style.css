@@ -2,49 +2,41 @@
     position: relative; left: 20px; top: 17px;
     margin: 0;
 }
-/* Zera as margens da página para o menu grudar no topo */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* O CABEÇALHO E A BORDA */
+
 .cabecalho-principal {
-    background-color: #ececec; /* Azul escuro - Cor de fundo do header */
-    
-    /* AQUI ESTÁ O SEGREDO: 
-       Espessura | Estilo | Cor */
-    border-bottom: 5px solid #bbbbbb; /* Borda laranja embaixo */
-    
-    padding: 1px 0; /* Espaçamento interno (cima/baixo) */
+    background-color: #ececec; 
+    border-bottom: 5px solid #bbbbbb; 
+    padding: 1px 0; 
 }
 
-/* Deixando os itens um do lado do outro */
 .menu ul {
-    list-style-type: none; /* Tira as "bolinhas" da lista */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
-    display: flex;         /* Coloca os itens na mesma linha */
-    justify-content: center; /* Centraliza o menu */
+    display: flex;         
+    justify-content: center; 
 }
 
-/* Espaçamento entre os links */
 .menu li {
     margin: 0 20px;
 }
 
-/* Estilo do texto dos links */
 .menu a {
-    text-decoration: none; /* Tira o sublinhado padrão dos links */
-    color: #000000;        /* Texto branco */
+    text-decoration: none; 
+    color: #000000;        
     font-size: 18px;
     font-weight: bold;
-    padding-bottom: 5px;   /* Espaço entre o texto e a borda do hover */
+    padding-bottom: 5px; 
 }
 
-/* BÔNUS: Efeito visual ao passar o mouse por cima do link */
 .menu a:hover {
-    color: #3ccde7; /* O texto fica laranja */
-    border-bottom: 2px solid #3ccde7; /* Cria uma bordinha laranja debaixo da palavra */
+    color: #3ccde7; 
+    border-bottom: 2px solid #3ccde7; 
 }
